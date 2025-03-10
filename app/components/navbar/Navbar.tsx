@@ -16,6 +16,12 @@ const Navbar = () => {
                             height={38}
                         />
                     </Link>
+                    <div className="flex space-x-6">
+                        Searche
+                    </div>
+                    <div className="flex items-center space-x-6">
+                        Add prperty - User nav
+                    </div>
                 </div>
             </div>
 
