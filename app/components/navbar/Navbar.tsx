@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
+import SearchFilters from "./SearchFiters";
+
 import logo from "../../../public/logo.png"
 
 const Navbar = () => {
@@ -17,7 +19,7 @@ const Navbar = () => {
                         />
                     </Link>
                     <div className="flex space-x-6">
-                        Searche
+                        <SearchFilters/>
                     </div>
                     <div className="flex items-center space-x-6">
                         Add prperty - User nav
