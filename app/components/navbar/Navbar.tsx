@@ -4,6 +4,7 @@ import Image from "next/image";
 import SearchFilters from "./SearchFiters";
 
 import logo from "../../../public/logo.png"
+import UserNav from "./UserNav";
 
 const Navbar = () => {
     return (
@@ -22,7 +23,7 @@ const Navbar = () => {
                         <SearchFilters/>
                     </div>
                     <div className="flex items-center space-x-6">
-                        Add prperty - User nav
+                       <UserNav />
                     </div>
                 </div>
             </div>
