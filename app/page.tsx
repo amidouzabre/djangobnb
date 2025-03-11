@@ -1,11 +1,11 @@
 import Image from "next/image";
+import Categories from "./components/Categories";
 //import styles from "./page.module.css";
 
 export default function Home() {
   return (
-    <main className="">
-      Django BnB
-      <h2 className="text-airbnb">Django and Next rules</h2>
+    <main className="max-w-[1500px] mx-auto px-6">
+      <Categories/>
     </main>
   );
 }

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 import SearchFilters from "./SearchFiters";
 
-import logo from "../../../public/logo.png"
+import logo from "@/public/logo.png"
 import UserNav from "./UserNav";
 import AddPropertyButton from "./AddPropertyButton";
 
