@@ -5,6 +5,7 @@ import SearchFilters from "./SearchFiters";
 
 import logo from "../../../public/logo.png"
 import UserNav from "./UserNav";
+import AddPropertyButton from "./AddPropertyButton";
 
 const Navbar = () => {
     return (
@@ -23,6 +24,7 @@ const Navbar = () => {
                         <SearchFilters/>
                     </div>
                     <div className="flex items-center space-x-6">
+                        <AddPropertyButton/>
                        <UserNav />
                     </div>
                 </div>
