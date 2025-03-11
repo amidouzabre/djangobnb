@@ -6,6 +6,7 @@ import SearchFilters from "./SearchFiters";
 import logo from "@/public/logo.png"
 import UserNav from "./UserNav";
 import AddPropertyButton from "./AddPropertyButton";
+import { ModeToggle } from "@/components/ModeToggle";
 
 const Navbar = () => {
     return (
@@ -26,6 +27,7 @@ const Navbar = () => {
                     <div className="flex items-center space-x-6">
                         <AddPropertyButton/>
                        <UserNav />
+                       <ModeToggle/>
                     </div>
                 </div>
             </div>
