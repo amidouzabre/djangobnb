@@ -14,6 +14,7 @@ const Category: FC<CategoryProps> = ({ img, title }) => {
                 alt={`Category - ${title}`}
                 width={20}
                 height={20}
+                className='dark:bg-white'
             />
             <span className="text-xs">{title}</span>
         </div>
