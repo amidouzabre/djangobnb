@@ -5,7 +5,7 @@ import beach_01 from "@/public/beach_01.avif"
 
 const PropertyListItem = () => {
     return (
-        <div className="cursor-pointer">
+        <div className="cursor-pointer px-2">
             <div className="relative overflow-hidden aspect-square rounded-xl">
                 <Image 
                     fill
