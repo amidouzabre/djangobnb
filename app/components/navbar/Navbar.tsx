@@ -6,7 +6,7 @@ import SearchFilters from "./SearchFiters";
 import logo from "@/public/logo.png"
 import UserNav from "./UserNav";
 import AddPropertyButton from "./AddPropertyButton";
-import { ModeToggle } from "@/components/ModeToggle";
+import { ModeToggle } from "@/src/theme/ModeToggle";
 
 const Navbar = () => {
     return (
