@@ -4,7 +4,7 @@ import "./globals.css";
 import Navbar from "./components/navbar/Navbar";
 
 import { ThemeProvider } from "@/src/theme/theme-provider"
-import Modal from "./components/modals/Modal";
+import LoginModal from "./components/modals/LoginModal";
 
 
 const geistSans = Geist({
@@ -49,12 +49,7 @@ export default function RootLayout({
           {children}
         </div>
 
-        <Modal 
-          label="Modal test" 
-          content={content}
-
-        />
-        
+        <LoginModal />
 
         </ThemeProvider>
       </body>
