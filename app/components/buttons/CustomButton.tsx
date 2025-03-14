@@ -10,7 +10,7 @@ export default function CustomButton({ label, onClick, className }: CustomButton
     return (
          <div 
             onClick={onClick}
-            className={`inline-flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer px-6 bg-airbnb hover:bg-airbnb-dark transition text-white rounded-md ${className}`}
+            className={`flex items-center justify-center gap-2 whitespace-nowrap cursor-pointer py-2 px-6 bg-airbnb hover:bg-airbnb-dark transition text-white rounded-md ${className}`}
         >
             {label}
         </div>
