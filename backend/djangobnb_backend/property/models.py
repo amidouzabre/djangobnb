@@ -21,6 +21,11 @@ class Property(models.Model):
     landlord = models.ForeignKey(User, related_name='properties', on_delete=models.CASCADE)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    
+    
     def __str__(self):
         return self.title
+
+    def image_url(self):
+        return f'{settings.WEBSITE_URL}{self.image.url}'
 
